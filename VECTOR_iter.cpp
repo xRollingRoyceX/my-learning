@@ -32,7 +32,7 @@ int main() {
             dubNum.push_back(temps[i]);
         }
     }
-    //Print the results. Also use a enhanced for loop to print duplicates
+    //Print the results. Also use a ranged based for loop to print duplicates
     cout << "\n\n" << cnt << " = number of of duplicates removed"
             " from the list of numbers\n" << endl;
     cout << "DUPLICATES: " << endl;
