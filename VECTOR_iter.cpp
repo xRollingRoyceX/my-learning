@@ -8,7 +8,8 @@
 //"inclds": holds all includes and usings::x-y-z
 #include "inclds"
 
-//get temps and print all double numbers, then delete doubles
+//(get temps (and/or)) print all numbers that have no duplicates, 
+//then keep track of all duplicates.
 int main() {
     typedef double dub;
     
